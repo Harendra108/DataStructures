@@ -1,4 +1,4 @@
-package gfg.practice;
+package practice;
 
 import java.util.*;
 
