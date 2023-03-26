@@ -16,6 +16,7 @@ public class BalancedParentheses {
          openingBraces.add('[');
          openingBraces.add('(');
 
+         //Added the new comment
          closingBraces.add('}');
          closingBraces.add(']');
          closingBraces.add(')');
