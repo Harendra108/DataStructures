@@ -11,15 +11,13 @@ public class RemoveDuplicates {
         sb.append(str.charAt(0));
         for(int i = 0; i < str.length(); i++) {
             char currentChar = str.charAt(i);
-            if(stack.peek() == currentChar){
-                continue;
-            }  else {
+            if(stack.peek() != currentChar){
                 stack.push(currentChar);
                 sb.append(currentChar);
             }
 
         }
 
-        System.out.println(sb.toString());
+        System.out.println(sb);
     }
 }
